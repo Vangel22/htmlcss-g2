@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Class 3</title>
+  </head>
+  <body>
+    <h1>HTML Формулари примери</h1>
+    <h2>Пример за input полиња</h2>
+
+    <form>
+      <label for="username">Корисничко име:</label>
+      <input
+        placeholder="Korisnicko ime"
+        type="text"
+        id="username"
+        name="username"
+      />
+      <br />
+      <label for="password">Лозинка:</label>
+      <input
+        placeholder="Vnesete lozinka"
+        type="password"
+        id="password"
+        name="password"
+      />
+      <br />
+      <label for="email">Е-пошта:</label>
+      <input type="email" id="email" name="email" />
+      <br />
+      <label for="age">Возраст:</label>
+      <input type="number" id="age" name="age" />
+      <br />
+      <label for="maloleten">Малолетен</label>
+      <input type="radio" id="maloleten" name="maloleten" />
+      <input type="radio" id="maloleten" name="maloleten" />
+      <br />
+      <label for="maloleten">Малолетен</label>
+      <input type="checkbox" id="maloleten" name="maloleten" />
+      <input type="checkbox" id="maloleten" name="maloleten" />
+      <br />
+      <label for="fajl">Прикачи фајл</label>
+      <input type="file" id="fajl" name="fajl" />
+      <br />
+      <button type="submit">Испрати</button>
+    </form>
+
+    <h2>Пример за textarea поле</h2>
+    <form>
+      <label for="message">Порака:</label>
+      <br />
+      <textarea id="message" name="message" rows="4" cols="50"></textarea>
+      <br />
+      <button type="reset">Пребриши</button>
+    </form>
+
+    <hr />
+
+    <h2>Пример за select поле</h2>
+    <form action="/submit" method="POST">
+      <label for="country">Изберете држава:</label>
+      <select id="country">
+        <option value="mk">Македонија</option>
+        <option value="rs">Србија</option>
+        <option value="bg">Бугарија</option>
+      </select>
+      <button type="submit">Испрати</button>
+    </form>
+
+    <h2>Пример за GET метод</h2>
+    <form action="/search" method="GET">
+      <label for="name">Име:</label>
+      <input type="text" id="name" name="name" />
+      <br />
+      <label for="surname">Презиме:</label>
+      <input type="text" id="surname" name="surname" />
+      <br />
+      <button>Испрати</button>
+    </form>
+
+    <h2>Пример за POST метод</h2>
+    <form action="/submit" method="POST">
+      <label for="name">Име:</label>
+      <input type="text" id="name" name="name" />
+      <button>Испрати</button>
+    </form>
+
+    <h2>Пример за Multipart формулар</h2>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+      <label for="file">Прикачи датотека:</label>
+      <input type="file" id="file" name="file" />
+      <button type="submit">Прикачи</button>
+    </form>
+
+    <h2>Пример за групирање на формулари</h2>
+    <form action="/submitforma" method="post">
+      <fieldset>
+        <legend>Лични податоци</legend>
+
+        <label for="name">Име:</label>
+        <input type="text" id="name" name="name" />
+        <br />
+        <br />
+        <label for="surname">Презиме:</label>
+        <input type="text" id="surname" name="surname" />
+        <br />
+        <br />
+      </fieldset>
+      <button>Испрати</button>
+    </form>
+  </body>
+</html>
