@@ -1,0 +1,23 @@
+.orangetext {
+    color: orange;
+}
+
+#greentext {
+    color: green;
+}
+
+.parent {
+    font-size: 20px;
+}
+
+.child {
+    font-size: 1.5em;
+}
+
+p {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 42px;
+}
