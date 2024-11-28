@@ -1,0 +1,40 @@
+.pseudo-example {
+    background-color: yellow;
+}
+
+.pseudo-example:first-child {
+    color: green;
+    font-weight: bold;
+}
+
+.pseudo-example:last-child {
+    color: red;
+    font-style: italic;
+}
+
+.pseudo-example:nth-child(2) {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.empty-example:empty {
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    border: 2px solid orange;
+}
+
+.active-example:active {
+    background-color: yellow;
+    border: 2px solid blue;
+}
+
+button:disabled {
+    background-color: lightgray;
+    color: gray;
+}
+
+.checked-example:checked + label {
+    font-weight: bold;
+    color: red;
+}

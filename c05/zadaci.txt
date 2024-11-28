@@ -1,0 +1,3 @@
+1. Iskoristete disabled psevdo klasa za kopce
+2. Iskoristete active psevdo klasa za kopce
+3. Istrazete za :hover psevdo klasa i implementirajte
