@@ -1,105 +1,106 @@
 .pseudo-example {
-    background-color: yellow;
+  background-color: yellow;
 }
 
 .pseudo-example:first-child {
-    color: green;
-    font-weight: bold;
+  color: green;
+  font-weight: bold;
 }
 
 .pseudo-example:last-child {
-    color: red;
-    font-style: italic;
+  color: red;
+  font-style: italic;
 }
 
 .pseudo-example:nth-child(2) {
-    color: blueviolet;
-    text-decoration: underline;
+  color: blueviolet;
+  text-decoration: underline;
 }
 
 .empty-example:empty {
-    height: 50px;
-    width: 50px;
-    background-color: yellow;
-    border: 2px solid orange;
+  height: 50px;
+  width: 50px;
+  background-color: yellow;
+  border: 2px solid orange;
 }
 
 .active-example:active {
-    background-color: yellow;
-    border: 2px solid blue;
+  background-color: yellow;
+  border: 2px solid blue;
 }
 
 button:disabled {
-    background-color: lightgray;
-    color: gray;
+  background-color: lightgray;
+  color: gray;
 }
 
 .checked-example:checked + label {
-    font-weight: bold;
-    color: red;
+  font-weight: bold;
+  color: red;
 }
 
 /* content, padding, border, margin */
 .box-model-example {
-    background-color: lightblue;
-    padding: 15px;
-    border: 1px solid black;
-    margin: 20px;
+  background-color: lightblue;
+  padding: 15px;
+  border: 1px solid black;
+  margin: 20px;
 }
 
 .inline-example {
-    display: inline;
-    /* height i width ne raboti ovde */
-    color: darkblue;
+  display: inline;
+  /* height i width ne raboti ovde */
+  color: darkblue;
 }
 
 .inline-block-example {
-    display: inline-block;
-    color: darkorange;
-    text-align: center;
-    border: 1px solid black;
-    margin: 10px 0;
-    width: 100px;
-    height: 100px;
-    /* height i width raboti ovde */
+  display: inline-block;
+  color: darkorange;
+  text-align: center;
+  border: 1px solid black;
+  margin: 10px 0;
+  width: 100px;
+  height: 100px;
+  /* height i width raboti ovde */
 }
 
 .block-example {
-    display: block;
-    width: 300px;
-    background-color: lightcoral;
-    text-align: center;
-    margin: 10px 0;
+  display: block;
+  width: 300px;
+  background-color: lightcoral;
+  text-align: center;
+  margin: 10px 0;
 }
 
 .background-color-example {
-    background-color: yellow;
+  background-color: yellow;
 }
 
 .background-image-example {
-    background-image: url("https://asset.gecdesigns.com/img/wallpapers/beautiful-fantasy-wallpaper-ultra-hd-wallpaper-4k-sr10012418-1706506236698-cover.webp");
-    height: 500px;
-    margin: 10px 0;
+  background-image: url("https://asset.gecdesigns.com/img/wallpapers/beautiful-fantasy-wallpaper-ultra-hd-wallpaper-4k-sr10012418-1706506236698-cover.webp");
+  height: 500px;
+  margin: 10px 0;
+  /* border-radius: 50%; */
 }
 
 .border-radius-example {
-    border: 1px solid green;
-    border-radius: 10px;
-    padding: 50px;
-    margin-top: 40px;
+  border: 1px solid green;
+  border-radius: 10px;
+  padding: 50px;
+  margin-top: 40px;
 }
 
 .border-radius-example-two {
-    border: 1px solid orange;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding: 50px;
-    margin-top: 40px;
+  border: 1px solid orange;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 50px;
+  margin-top: 40px;
 }
 
 .shadow-example {
-    box-shadow: 5px 5px 10px blue;
-    padding: 10px;
-    margin: 50px;
-    text-align: center;
+  box-shadow: 5px 5px 10px blue;
+  padding: 10px;
+  margin: 50px;
+  text-align: center;
 }
