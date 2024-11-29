@@ -1,4 +1,4 @@
 Zadaca 1
 
 - Napravete <div> koj e absolutno pozicioniran
-- Napravete <div> koj e fiksiran vo levoto dolno kjose od ekranot 
+- Napravete <div> koj e fiksiran vo levoto dolno kjose od ekranot

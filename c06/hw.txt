@@ -1,0 +1,9 @@
+- Изработка на мала страница со користење на floating layout и семантички елементи
+
+1. Napravete navbar, neka bide fixed
+2. Napravete main kade ke pisuvate nekoja sodrzina (slika, naslov, tekst) - Tuka ke iskoristite floating layout
+3. Footer kade ke go napisete vaseto ime i prezime i momentalnata godina
+
+Layout
+- slika - naslov
+        - tekst

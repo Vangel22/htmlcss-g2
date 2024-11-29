@@ -81,3 +81,29 @@ footer {
   padding: 10px;
   margin-bottom: 20px;
 }
+
+.float-container {
+  width: 100%;
+  border: 2px dashed green;
+  overflow: hidden;
+  clear: both;
+}
+
+.float-container-broken {
+  width: 100%;
+  border: 2px solid red;
+}
+
+.float-box {
+  float: left;
+  width: 30%;
+  padding: 20px;
+  margin: 1%;
+  background-color: lightsteelblue;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.clear {
+  clear: both;
+}
