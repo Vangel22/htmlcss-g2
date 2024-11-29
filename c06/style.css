@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+}
+
+.section-container {
+  height: 300px;
+  background-color: blanchedalmond;
+  overflow-y: scroll;
+}
+
+.static-box {
+  position: static;
+  background-color: lightblue;
+  padding: 10px;
+  margin: 10px;
+}
+
+.relative-box {
+  position: relative;
+  background-color: lightgreen;
+  padding: 10px;
+  margin: 10px;
+  top: 10px;
+  left: 10px;
+}
+
+.absolute-box {
+  position: absolute;
+  background-color: lightcoral;
+  padding: 10px;
+  margin: 10px;
+  top: 100px;
+  left: 50px;
+}
+
+.fixed-box {
+  position: fixed;
+  background-color: lightgoldenrodyellow;
+  padding: 10px;
+  top: 0;
+  right: 0;
+}
+
+.sticky-box {
+  position: sticky;
+  background-color: lightpink;
+  padding: 10px;
+  top: 0;
+}
+
+/* Semantic elements */
+
+header {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+main {
+  background-color: wheat;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+aside {
+  background-color: aqua;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+nav {
+  background-color: beige;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: turquoise;
+  padding: 10px;
+  margin-bottom: 20px;
+}
