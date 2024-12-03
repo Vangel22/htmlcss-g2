@@ -1,0 +1,41 @@
+/* body { */
+/* margin: 0; */
+/* Po default margin e 8px */
+/* } */
+
+.flexbox-container {
+  height: 800px;
+  display: flex;
+  /* row */
+  /* flex-direction: column; */
+  /* column */
+  gap: 10px;
+  background-color: yellow;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  align-content: center;
+  /* Se koristi samo koga imame vtor red so pomos na flex-wrap */
+}
+
+.flexbox-item {
+  width: 200px;
+  border: 1px solid teal;
+}
+
+.flexbox-item-1 {
+  min-height: 100px;
+  flex-shrink: 0;
+  /* Ne se namaluva negovata golemina */
+}
+
+.flexbox-item-2 {
+  min-height: 200px;
+  flex-grow: 2;
+  flex-basis: 0;
+}
+
+.flexbox-item-3 {
+  min-height: 300px;
+  flex-grow: 1;
+}
