@@ -1,0 +1,9 @@
+Zadaca
+
+1. Napravete eden grid layout
+2. Strukturata da bide so header, sodrzina, footer
+
+
+------ header ------ crna boja
+------ content ------ neka bide vo svetla boja
+------ footer ----- sina boja

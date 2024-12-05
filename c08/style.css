@@ -1,0 +1,74 @@
+.grid-container {
+  height: 500px;
+  border: 1px solid black;
+  display: grid;
+  /* grid-template-columns: 200px 150px 300px; */
+  grid-template-columns: 100px 100px;
+  /* grid-template-columns: repeat(2, 1fr); */
+  gap: 10px;
+  /* column-gap: 20px; */
+  /* item 1 i item 2 prostor */
+  /* row-gap: 10px; */
+  /* item 1 i item 3 prostor */
+
+  /* grid-template-rows: auto 200px auto; */
+  grid-auto-rows: minmax(100px, auto);
+  /* 100px minimum i auto za maksimum */
+  justify-content: center;
+  /* align-items: center; */
+  align-content: center;
+
+  /* grid-template-areas:
+    "header header header"
+    "sidebar testone testone"
+    "sidebar testtwo testtwo"
+    "footer footer footer"; */
+  /* morame da zadademe golemina na redicata za da gi vidime areas */
+}
+
+.grid-item {
+  border: 1px solid teal;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.grid-item-1 {
+  /* grid-area: header; */
+  /* grid-column-start: 1;
+  grid-column-end: 3; */
+  /* grid-column: 1 / 3; */
+  /* grid-column-start: 1;
+  grid-column-end: -1; */
+  /* -1 znaci do najkrajnata kolona */
+  /* grid-column: 1 / -1; */
+  /* 1 znaci startna kolona,  -1 znaci do najkrajnata kolona */
+  /* grid-column: span 2; */
+  /* protegni se za dve koloni */
+  /* 
+  align-self: end;
+  justify-self: center; */
+}
+
+.grid-item-2 {
+  /* grid-area: sidebar; */
+  background-color: orange;
+  /* grid-row-start: 2;
+  grid-row-end: 4; */
+  /* grid-row: span 2; */
+  /* align-self: end; */
+  /* justify-self: end; */
+}
+
+.grid-item-3 {
+  /* grid-area: testone; */
+  background-color: blue;
+}
+
+.grid-item-4 {
+  /* grid-area: testtwo; */
+  background-color: blue;
+}
+
+.grid-item-5 {
+  /* grid-area: footer; */
+}
