@@ -91,6 +91,19 @@ img {
     max-width: 200px;
   }
   .sodrzina {
+    color: green;
     font-size: 14px;
+  }
+}
+
+@media (orientation: portrait) {
+  body {
+    background-color: lightgreen;
+  }
+}
+
+@media (orientation: landscape) {
+  body {
+    background-color: lightpink;
   }
 }
