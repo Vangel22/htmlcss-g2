@@ -72,3 +72,28 @@
 .grid-item-5 {
   /* grid-area: footer; */
 }
+
+.box {
+  background-color: #444;
+  color: white;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.box:nth-child(even) {
+  background-color: #ccc;
+  color: black;
+}
+
+.grid-wrapper {
+  margin: 20px;
+  width: 600px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(6, 100px);
+  grid-template-rows: 100px 100px 100px 200px;
+  /* grid-auto-flow: row; */
+  /* odreduva po koj redosled ke gi gledame elementite  - po default e redica*/
+  /* grid-auto-flow: row; */
+}

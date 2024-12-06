@@ -1,0 +1,96 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 20px;
+  background-color: lightblue;
+  color: black;
+}
+
+.post {
+  container-type: inline-size;
+  /* se koristi za width specifikacija */
+  /* container-type: size; */
+  /* i so height i so width */
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card h2 {
+  font-size: 1em;
+  color: green;
+}
+
+.flexbox-container {
+  display: flex;
+  margin: 20px;
+  gap: 10px;
+}
+
+.flex-item {
+  width: 500px;
+  background-color: greenyellow;
+  padding: 10px;
+}
+
+@container (min-width: 700px) {
+  .card h2 {
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    background-color: lightcoral;
+  }
+
+  .flexbox-container {
+    flex-wrap: wrap;
+  }
+
+  .flex-item {
+    background-color: purple;
+  }
+}
+
+@media print and (max-width: 200px) {
+  body {
+    color: blue;
+  }
+}
+
+/* roditelot ne funkcionira vo @container query */
+.karticka-kontejner {
+  container-type: inline-size;
+}
+
+.karticka {
+  max-width: 400px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.sodrzina {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  border-radius: 10px;
+}
+
+@container (min-width: 500px) {
+  .karticka {
+    flex-direction: column;
+    max-width: 200px;
+  }
+  .sodrzina {
+    font-size: 14px;
+  }
+}
