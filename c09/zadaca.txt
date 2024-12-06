@@ -1,2 +1,2 @@
-1. Napravete widget-ot od domasnata da bide responziven
+1. Napravete widget-ot od domasnata da bide responziven (horizontalen, vertikalen)
 2. Iskoristete media query za da ja promenite bojata na teloto na celiot ekran
