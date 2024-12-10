@@ -1,0 +1,160 @@
+body {
+  margin: 100px;
+}
+.kopce {
+  color: white;
+  background-color: blue;
+}
+
+.kopce:hover {
+  background-color: darkblue;
+}
+
+/* TRANSITIONS */
+
+.box {
+  margin: 100px 0;
+  width: 300px;
+  height: 300px;
+  background: greenyellow;
+
+  /* transition-property: background, transform;
+  transition-duration: 1000ms;
+  transition-timing-function: ease;
+  transition-delay: 1s; */
+
+  transition: 1s background ease-in, 500ms transform ease-out 1s;
+  /* transition: <property> <duration> <timing-function> <delay>; */
+}
+
+.box:hover {
+  background: orange;
+  transform: rotate(45deg);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.kocka {
+  width: 200px;
+  height: 200px;
+
+  transition-property: width;
+  transition-duration: 2s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.container:hover .kocka {
+  width: 600px;
+}
+
+.one {
+  background: aqua;
+  transition-timing-function: linear;
+}
+
+.two {
+  background: blue;
+  transition-timing-function: ease-in;
+}
+
+.three {
+  background: darkblue;
+  transition-timing-function: ease-out;
+}
+
+.four {
+  background: blueviolet;
+  transition-timing-function: ease-in-out;
+}
+
+/* ANIMATIONS */
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-300px);
+    /* -300px odi nalevo */
+    /* 300px odi nadesno */
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.slideInLeft {
+  padding: 40px 0;
+
+  /* animation-name: slideInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: infinite; */
+  /* ili broj na pati */
+  /* animation-iteration-count: 2; */
+
+  /* Primer za animation fill mode */
+  /* animation-fill-mode: forwards; */
+  /* backwards - go pomestuva na startnata pozicija - from */
+  /* forwards - go pomestuva na poslednata pozicija - to */
+
+  /* transform: translate(-150px); */
+
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: slideInLeft 1s ease-in;
+}
+
+.wrap-circle {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: green;
+  border-radius: 50%;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50px);
+    /* -50px odi nagore */
+    /* 50px odi nadolu */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* WORKING WITH IMAGES */
+
+img {
+  height: 300px;
+  width: 300px;
+  filter: hue-rotate(90deg);
+  transition: filter 0.3s ease;
+}
+
+img:hover {
+  filter: hue-rotate(180deg);
+}
+
+.embed-container {
+  border: 2px solid black;
+  transition: border-color 0.3s ease;
+}
+
+.embed-container:hover {
+  border-color: blue;
+}

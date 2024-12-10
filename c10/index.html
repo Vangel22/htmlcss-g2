@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Class 10</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button class="kopce">Klikni tuka</button>
+    <br />
+    <div class="box"></div>
+    <br />
+    <div class="container">
+      <div class="kocka one">linear</div>
+      <div class="kocka two">ease-in</div>
+      <div class="kocka three">ease-out</div>
+      <div class="kocka four">ease-in-out</div>
+    </div>
+    <br />
+    <h1 class="slideInLeft">Hello World!</h1>
+    <br />
+
+    <div class="wrap-circle">
+      <div class="circle"></div>
+    </div>
+    <br />
+
+    <h1>Разлики помеѓу img, embed и inline SVG</h1>
+    <h2>1. img</h2>
+    <img src="astraion.svg" alt="Nekoja slika" />
+    <!-- Не можете да стилизирате внатрешните елементи на SVG, но можете да примените CSS ефекти на сликата. -->
+    <br />
+    <h2>2. embed</h2>
+    <div class="embed-container">
+      <embed src="astraion.svg" type="image/svg+xml" />
+    </div>
+    <br />
+    <h2>3. inline svg</h2>
+    <!-- Ова SVG користи CSS за интерактивно стилизирање. -->
+    <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300">
+      <circle
+        cx="50"
+        cy="50"
+        r="40"
+        stroke="black"
+        stroke-width="3"
+        fill="red"
+      />
+      <circle
+        cx="150"
+        cy="150"
+        r="140"
+        stroke="black"
+        stroke-width="3"
+        fill="red"
+      />
+      <!-- stroke, stroke-width e isto kako border: 3px solid black -->
+    </svg>
+  </body>
+</html>
